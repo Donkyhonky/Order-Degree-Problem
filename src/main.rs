@@ -26,8 +26,6 @@ use std::env;
 use std::process::{Command, exit};
 use rand::Rng;
 use std::time::{Instant, Duration};
-use std::fs::File;
-use std::io::Write;
 use plotters::prelude::*;
 
 fn main() {
