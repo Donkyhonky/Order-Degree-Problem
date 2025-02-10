@@ -2,15 +2,15 @@
 
 To run the code use one of the following commands, and make sure to go through the Prerequisites
 
+
 1. Single execution mode:
+  ```bash
     cargo run -- SINGLE nodes <n> degree <d> groups <g> temperature <beta> max_candidates <max_candidates> max_time[minutes] <max_time>
-
+  ```
 2. Comparison mode:
+  ```bash
     cargo run -- COMPARISON nodes <n> degree <d> groups [<g1>,<g2>,...,<g_m>] temperatures [<beta_1>,...,<beta_k>] max_candidates <max_candidates> max_time[minutes] <max_time>
-
-```bash
-cargo run -- <n> <d> <g> <beta> <max_candidates>
-```
+  ```
 
 Where:
 - `<n>`: Number of nodes
